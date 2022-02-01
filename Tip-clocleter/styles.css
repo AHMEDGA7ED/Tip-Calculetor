@@ -1,0 +1,118 @@
+html {
+    font-size: 10px;
+    color: #4e4d4d;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+body {
+    background-color: #eee;
+}
+
+
+main {
+    max-width: 50rem;
+    margin: 2rem auto;
+    background: linear-gradient(#3dc0c0, #5bceae);
+    padding: 3rem  1.6rem 6rem 1.6rem;
+    border-radius: 4rem;
+    box-shadow: 0 0 0 2em #F4AAB9,
+    0 0 0 2em #66CCFF;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    padding-bottom: 3rem;
+}
+
+section {
+    background: white;
+    font-size: 1.8rem;
+    margin-bottom: 1.6rem;
+    padding: 0 1.6rem;
+    border-radius: 1rem;
+    box-shadow: inset 0 2px 2px lightgrey;
+}
+
+
+section > div {
+    padding: 1.6rem 0;
+
+
+}
+
+
+.bill {
+    display: flex;
+}
+
+.bill label {
+    flex: 1;
+    align-self: center;
+}
+
+.bill input {
+    flex: 3;
+}
+
+
+input [type="number"] {
+    font-family: inherit;
+    background: #f4f4f5;
+    font-size: 1.6rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+    padding: 0.8rem 0 0.8rem;
+    box-shadow: inset 0 2px 2px lightgrey;
+
+}
+
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.total {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.range {
+   -wbkit-appearance: none;
+   width: 100%;
+   height: 8px;
+   background: #eee;
+   margin-top: 1.2rem;
+   border-radius: 0.3rem;
+   outline-color: #f4f4f5;
+
+}
+
+.range::-wibkit-slider-thumb {
+    -wbkit-appearance: none;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    background: #3dc0c0;
+    cursor: pointer;
+
+}
+
+.range::-moz-range-thumb {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    background: #3dc0c0;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.range::-moz-focus-outer {
+    border: 0;
+}
